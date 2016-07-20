@@ -2,7 +2,7 @@ build:
   dockerfile_name: Dockerfile
 deploy:
   - application: mongo-server
-    cluster: b62ee1e0-c7b7-4931-af07-6c78edb97989
-    partition: mongo
+    cluster: 969d52d9-a3f8-46a9-989e-183bf05d127a
+    partition: deploy
     containers:
-    - mongo-server
+    - con-server
